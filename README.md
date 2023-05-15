@@ -9,7 +9,7 @@ In this projects we are going to build a recipes web pages that introduce cross-
 
 Skill we will learn in this project
 
-Technical Skills: Html/CSS, git/GitHub
+Technical Skills: Html/CSS, git/GitHub, learn how to write a good commit messages...
 
 Soft Skills: Collaborating, time organizing, presenting workflow. 
 
