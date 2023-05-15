@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+
+}
+
+h1, h2 {
+  text-align: center;
+
+}
+
+#first-paragraph {
+  text-align: center;
+}
+
+#durian-image {
+  display: block;
+  max-width: 45%;
+  height: auto;
+  margin: auto;
+ }
+
+#durian-description {
+  text-align: justify;
+  margin: 0 2rem;
+}
