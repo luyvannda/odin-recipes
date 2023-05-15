@@ -18,10 +18,17 @@ h1, h2 {
   display: block;
   max-width: 45%;
   height: auto;
-  margin: auto;
+  margin: 25px auto;
  }
 
-#durian-description {
+p {
   text-align: justify;
   margin: 0 2rem;
+}
+
+#recipe-image {
+  display: block;
+  max-width: 40%;
+  height: auto;
+  margin: auto;
 }
