@@ -1,8 +1,25 @@
 body {
-  width: 50rem;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#first-paragraph {
+  text-align: center;
+}
+
+#durian-description {
+  text-align: justify;
+  margin: 0 2rem;
 }
 
 #durian-image {
-  max-width: 50%;
+  display: block;
+  max-width: 45%;
   height: auto;
+  margin: auto;
  }
