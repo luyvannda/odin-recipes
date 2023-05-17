@@ -5,7 +5,8 @@ body {
 
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 
 }
@@ -19,7 +20,7 @@ h1, h2 {
   max-width: 45%;
   height: auto;
   margin: 25px auto;
- }
+}
 
 p {
   text-align: justify;
