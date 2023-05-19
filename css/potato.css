@@ -1,0 +1,38 @@
+body {
+    height: auto;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(206, 253, 254);
+    color: rgb(62, 42, 135);
+}
+
+#credit {
+    text-align: center;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: rgb(3, 31, 191);
+}
+
+p {
+    text-align: justify;
+    margin: 0 2rem;
+    font-size: 20pt;
+}
+
+#image1 {
+    max-width: 35%;
+    height: auto;
+    max-height: 30%;
+    display: block;
+    margin: auto;
+}
+
+#image2 {
+    max-width: 40%;
+    max-height: 30%;
+    display: block;
+    margin: auto;
+}
