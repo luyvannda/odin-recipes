@@ -2,7 +2,6 @@ body {
   width: 100%;
   height: auto;
   margin: 0;
-
 }
 
 h1,
@@ -45,4 +44,22 @@ p {
   background-color: cornsilk;
   padding: 0 1rem;
   width: fit-content;
+}
+
+.steps {
+  text-align: justify;
+
+  margin: 0 7rem 0 4rem;
+}
+
+em {
+  margin: 0 2rem;
+}
+
+/*Footer*/
+
+footer p {
+  display: block;
+  text-align: center;
+  margin: 2rem 1rem 2rem 1rem;
 }
