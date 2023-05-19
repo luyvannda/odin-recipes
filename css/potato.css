@@ -1,0 +1,68 @@
+body {
+    height: auto;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(206, 253, 254);
+    color: rgb(62, 42, 135);
+}
+
+#credit {
+    text-align: center;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: rgb(3, 31, 191);
+}
+
+p {
+    text-align: justify;
+    margin: 0 2rem;
+    font-size: 16pt;
+}
+
+#image1 {
+    /* max-width: 35%;
+    height: auto;
+    max-height: 30%;
+    */
+    display: block;
+    max-width: 50%;
+    width: 450px;
+    height: 350px;
+    margin: auto;
+}
+
+#image2 {
+    display: block;
+    max-width: 50%;
+    width: 450px;
+    height: 350px;
+    margin: auto;
+}
+
+h3 {
+    margin: 0 4rem;
+}
+
+.equipment ul li {
+
+    margin: 0 5rem;
+    font-size: 16pt;
+}
+
+.ingredient {
+
+    margin: 1rem 5rem;
+    background-color: cornsilk;
+    width: fit-content;
+    padding: 0.1em 1.5rem 0.1em 0;
+    font-size: 16pt;
+}
+
+.steps ol li {
+    text-align: justify;
+    margin: 0 8rem 0 5rem;
+    font-size: 16pt;
+}
