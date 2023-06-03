@@ -1,64 +1,29 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
-  width: 100%;
-  height: auto;
-  margin: 0;
+  background-color: azure;
 }
 
-h1,
-h2 {
+h1 {
   text-align: center;
 }
 
-#first-paragraph {
-  text-align: center;
+.container {
+  display: flex;
+  background-color: rgb(239, 234, 228);
+  height: 200px;
+  width: 200px;
+  flex-direction: row;
 }
 
-#durian-image {
-  display: block;
-  max-width: 45%;
-  height: auto;
-  margin: 25px auto;
+.flex-items {
+  flex-direction: row;
 }
 
-p {
-  text-align: justify;
-  margin: 0 2rem;
-}
 
-#durian-crepe {
-  display: block;
-  max-width: 40%;
-  height: auto;
-  margin: auto;
-}
 
-.image-caption {
-  text-align: center;
-  font-size: 11pt;
-}
-
-.ingredient {
-  text-align: left;
-  margin: 0 4rem;
-  background-color: cornsilk;
-  padding: 0 1rem;
-  width: fit-content;
-}
-
-.steps {
-  text-align: justify;
-
-  margin: 0 7rem 0 4rem;
-}
-
-em {
-  margin: 0 2rem;
-}
-
-/*Footer*/
-
-footer p {
-  display: block;
-  text-align: center;
-  margin: 2rem 1rem 2rem 1rem;
+ul>li {
+  list-style: none;
 }
