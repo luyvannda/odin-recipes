@@ -12,21 +12,22 @@ h1 {
 
 p {
   text-align: justify;
-  margin: 0 14rem 2rem 14rem;
+  margin: 0 9rem 2rem 9rem;
 }
 
 .container {
   display: flex;
   background-color: rgb(239, 234, 228);
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
   border: 1px solid #000;
-  width: 720px;
+  width: 520pt;
   height: auto;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  flex: 1;
 }
 
-.flex-items {}
+
 
 ul>li {
   list-style: none;
@@ -34,14 +35,14 @@ ul>li {
 
 #durian-image {
   display: flex;
-  flex: 1;
-  width: 250pt;
+  flex: auto;
+  width: 230pt;
   height: auto;
 }
 
 #potato-image {
   display: flex;
-  flex: 1;
+  flex: auto;
   height: 200pt;
   width: 200pt;
 }
@@ -64,4 +65,14 @@ a {
 a:hover {
   background-color: rgb(198, 74, 188);
   color: rgb(219, 233, 204);
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  font-style: italic;
+  margin: 1rem auto 0 auto;
+  width: 22rem;
+  background-color: #c5f1f2;
+  color: black;
 }
