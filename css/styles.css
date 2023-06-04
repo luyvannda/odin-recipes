@@ -10,20 +10,58 @@ h1 {
   text-align: center;
 }
 
+p {
+  text-align: justify;
+  margin: 0 14rem 2rem 14rem;
+}
+
 .container {
   display: flex;
   background-color: rgb(239, 234, 228);
-  height: 200px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  width: 720px;
+  height: auto;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.flex-items {
-  gap: 2rem;
-}
-
-
+.flex-items {}
 
 ul>li {
   list-style: none;
+}
+
+#durian-image {
+  display: flex;
+  flex: 1;
+  width: 250pt;
+  height: auto;
+}
+
+#potato-image {
+  display: flex;
+  flex: 1;
+  height: 200pt;
+  width: 200pt;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(198, 74, 188);
+  color: rgb(219, 233, 204);
 }
