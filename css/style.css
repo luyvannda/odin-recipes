@@ -1,0 +1,225 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body#landing-page {
+  background-color: azure;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  margin: 0 9rem 2rem 9rem;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(239, 234, 228);
+  margin: 0 auto 2rem auto;
+  border: 1px solid #000;
+  width: 520pt;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+
+
+ul>li {
+  list-style: none;
+}
+
+#first-recipe-img {
+  display: flex;
+  flex: auto;
+  width: 230pt;
+  height: auto;
+}
+
+#potato-image {
+  display: flex;
+  flex: auto;
+  height: 200pt;
+  width: 200pt;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(198, 74, 188);
+  color: rgb(219, 233, 204);
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  font-style: italic;
+  margin: 1rem auto 0 auto;
+  width: 22rem;
+  background-color: #c5f1f2;
+  color: black;
+}
+
+/* style first-recipe durian*/
+
+body#first-recipe {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#first-paragraph {
+  text-align: center;
+}
+
+#durian-image {
+  display: block;
+  max-width: 45%;
+  height: auto;
+  margin: 25px auto;
+}
+
+p#first-paragraph {
+  text-align: center;
+  margin: 0 2rem;
+}
+
+#durian-crepe {
+  display: block;
+  max-width: 40%;
+  height: auto;
+  margin: auto;
+}
+
+.image-caption {
+  text-align: center;
+  font-size: 11pt;
+}
+
+.ingredient {
+  text-align: left;
+  margin: 0 4rem;
+  background-color: cornsilk;
+  padding: 0 1rem;
+  width: fit-content;
+}
+
+.steps {
+  text-align: justify;
+  margin: 0 7rem 0 4rem;
+}
+
+p#steps-paragraph {
+  text-align: left;
+  margin: 0 0 0 2.5rem;
+
+}
+
+em {
+  margin: 0 2rem;
+}
+
+/*Footer*/
+
+footer p {
+  display: block;
+  text-align: center;
+  margin: 2rem 1rem 2rem 1rem;
+}
+
+/* style first-recipe durian*/
+
+
+/* style second-recipe potato*/
+
+body#second-recipe {
+  height: auto;
+  margin: 0;
+  width: 100%;
+  background-color: rgb(206, 253, 254);
+  color: rgb(62, 42, 135);
+}
+
+#credit {
+  text-align: center;
+}
+
+.second-head {
+  text-align: center;
+  color: rgb(3, 31, 191);
+}
+
+.second-recipe-paragraph {
+  text-align: justify;
+  margin: 0 2rem;
+  font-size: 14pt;
+}
+
+#potato-first-image {
+  /* max-width: 35%;
+  height: auto;
+  max-height: 30%;
+  */
+  display: block;
+  max-width: 50%;
+  width: 450px;
+  height: 350px;
+  margin: auto;
+}
+
+#potato-second-image {
+  display: block;
+  max-width: 50%;
+  width: 450px;
+  height: 350px;
+  margin: auto;
+}
+
+h3 {
+  margin: 0 4rem;
+}
+
+.equipment ul li {
+
+  margin: 0 5rem;
+  font-size: 14pt;
+}
+
+.second-recipe-ingredient {
+
+  margin: 1rem 5rem;
+  background-color: cornsilk;
+  width: fit-content;
+  padding: 0.1em 1.5rem 0.1em 0;
+  font-size: 14pt;
+}
+
+.second-recipe-steps ol li {
+  text-align: justify;
+  margin: 0 8rem 0 5rem;
+  font-size: 14pt;
+}
+
+/* style second-recipe potato*/
